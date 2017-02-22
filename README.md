@@ -18,7 +18,7 @@ If you want to create a subscriber, simply use:
     $hostname = 'your_account_hostname';
     $api_key = 'your_api_key';
 
-    $api = new Mailrelay( $api_key, $hostname );
+    $api = new MailRelay( $api_key, $hostname );
 
     $api->addSubscriber(
     	array(
