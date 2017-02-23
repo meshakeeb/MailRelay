@@ -1,4 +1,4 @@
-# Mailrelay
+# MailRelay
 
 Mailrelay is a simple PHP wrapper for [Mailrelay.com][2] API. You can do a large number of operations like managing subscribers and campaigns, sending your newsletters, getting your stats data, etc.
 
