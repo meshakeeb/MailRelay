@@ -175,7 +175,6 @@ class MailRelay {
 
     /**
      * Performs the underlying HTTP request. Not very exciting.
-     * @param  string $http_verb The HTTP verb to use: get, post, put, patch, delete
      * @param  string $method The API method to be called
      * @param  array $args Assoc array of parameters to be passed
      * @param int $timeout
