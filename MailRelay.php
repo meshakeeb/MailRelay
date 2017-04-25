@@ -130,7 +130,7 @@ class MailRelay {
 			return call_user_func_array( array( $this, $name ), $arguments );
 		}
 
-		trigger_error( "Call to undefined method '{$method}'" );
+		trigger_error( "Call to undefined method '{$name}'" );
 	}
 
 	// ------------------- HELPER --------------------------
